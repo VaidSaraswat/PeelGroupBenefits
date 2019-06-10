@@ -1,0 +1,12 @@
+.title{
+  border-bottom: 1px solid white;
+}
+
+.collapsible-header{
+  border: 1px solid #fff !important;
+  outline: none !important;
+}
+
+.section{
+  margin-bottom: 2px !important;
+}

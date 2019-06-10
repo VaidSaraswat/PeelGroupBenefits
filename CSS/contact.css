@@ -1,0 +1,56 @@
+.title{
+  border-bottom: 1px solid white;
+}
+.row{
+  margin-bottom: 0px !important;
+}
+.datepicker-date-display{
+  background-color: #f44336 !important;
+}
+
+.datepicker-day-button{
+  color: #00bcd4 !important;
+}
+
+.datepicker-table td.is-selected{
+  background-color: #e0e0e0 !important;
+}
+
+.datepicker-cancel{
+  color: #00bcd4 !important;
+}
+
+.datepicker-done{
+  color: #00bcd4 !important;
+}
+
+.timepicker-digital-display{
+  background-color: #f44336 !important;
+}
+
+.timepicker-close{
+  color: #00bcd4 !important;
+}
+
+.row .col.s12{
+  margin-bottom: 2px !important;
+}
+/*.timepicker-tick{
+  color:  #00bcd4 !important;
+}*/
+
+/*<div class="card cyan">
+  <div class="card-content white-text">
+    <span class="card-title">Get a free quote!</span>
+    <ul>
+      <li style="margin-bottom: 20px;"><i class="material-icons left">smartphone</i>647-726-0601</li>
+      <li style="margin-bottom: 20px;"><i class="material-icons left">phone</i>416-839-4561</li>
+      <li style="margin-bottom: 20px;"><i class="material-icons left">email</i>vikassaraswat@rogers.com</li>
+    </ul>
+    <span class="card-title">Address</span>
+    <p>
+      <i class="material-icons">location_on</i>
+      5705 Cancross Court Suite 200, Mississauga Ontario - L5R 3E9
+    </p>
+  </div>
+</div>*/

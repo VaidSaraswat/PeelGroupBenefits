@@ -1,0 +1,11 @@
+.title{
+  border-bottom: 1px solid white;
+}
+
+.row .container{
+  height: 60%;
+}
+
+.row{
+  margin-bottom: 2px !important;
+}

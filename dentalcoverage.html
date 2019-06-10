@@ -1,0 +1,130 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Peel Group Benefits</title>
+  <!-- Custom css -->
+  <link rel="stylesheet" href="CSS/dentalcoverage.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="nav-wrapper cyan">
+      <div class="container">
+        <a href="home" class="brand-logo">PeelGroupBenefits</a>
+        <a href="#"class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li class="red"><a href="services">Services</a></li>
+          <li><a href="contact">Contact Us</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/vikas-saraswat-14b56a18"class="tooltipped btn-small btn-floating cyan lighten-2"data-tooltip="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/peelinsurance/"class="tooltipped btn-small btn-floating cyan lighten-2"data-tooltip="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="sidenav cyan" id="mobile-menu">
+            <li><a href="#about"class="white-text">About</a></li>
+            <li><a href="services"class="white-text">Services</a></li>
+            <li><a href="contact"class="white-text">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Image-->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="Images/employee-smiling.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- Content -->
+  <section class="section cyan white-text">
+    <div class="container">
+      <h4 class="title">Dental Coverage</h4>
+      <ul class="browser-default">
+        <li>How often can I get my teeth cleaned?</li>
+        <li>Do my benefits cover my child’s braces?</li>
+        <li>Are root canals covered?</li>
+        <li>What are my coverage limits?</li>
+      </ul>
+      <p>
+        These are just a few of the questions that our clients commonly ask us when considering
+        dental coverage as part of their employee benefits package. The answers to
+        these questions vary depending on the type of coverage that you select.
+        Dental services are often grouped into three different categories:
+      </p>
+      <ul class="browser-default">
+        <li>Basic & Preventative Services – Regular check-ups, cleanings, fillings, scaling/polishing, diagnostic services, extractions and root canals</li>
+        <li>Major Dental Services - Crowns, bridgework, dentures, inlays and on-lays</li>
+        <li>Orthodontics - Procedures and equipment related to braces</li>
+      </ul>
+      <p>
+        Similar to healthcare coverage, you have the ability to customize a number
+        of components of your dental coverage. From benefit selection to the use
+        of deductibles, annual maximums and coinsurance levels, you are in control of coverage and cost.
+      </p>
+      <p>We can help you make sense of your options and select the dental benefits that are right for you.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer red scrollspy" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5 class="title">About Us</h5>
+          <p>Located in the suburbs of Toronto, peelgroupbenefits aims to find the best solutions in regards to benefit plans. Big or small,
+            many company owners have an abundace of options to choose from in regards to benefit plans for their companies. Alot of times this information can be
+            overwhelming, which is why it is important to talk to a financial advisor to guide you through the process. Our goal is to come up with the best benefit plan for you
+            and your compay.
+          </p>
+          <p>
+            If you have any questions, send us an email!
+          </p>
+          <a href="mailto:vikassaraswat@rogers.com" class="btn-floating red lighten-2 pulse"><i class="material-icons">email</i></a>
+        </div>
+
+        <div class="col s12 l4 offset-l2">
+          <h5 class="title">Connect</h5>
+          <ul>
+            <li><a href="https://www.facebook.com/peelinsurance/" class="white-text">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/vikas-saraswat-14b56a18/" class="white-text">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright red">
+      <div class="container center-align">&copy; 2019 Peel Financial Services</div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+  });
+  </script>
+</body>
+</html>
