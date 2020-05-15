@@ -26,6 +26,7 @@
           <li class=" red"><a href="#about">About</a></li>
           <li><a href="services">Services</a></li>
           <li><a href="contact">Contact Us</a></li>
+          <li><a href="faq" >FAQ</a></li>
           <li>
             <a href="https://www.linkedin.com/in/vikas-saraswat-14b56a18"class="tooltipped btn-small btn-floating cyan lighten-2"data-tooltip="LinkedIn">
               <i class="fab fa-linkedin"></i>
@@ -41,17 +42,14 @@
             <li><a href="#about"class="white-text">About</a></li>
             <li><a href="services"class="white-text">Services</a></li>
             <li><a href="contact"class="white-text">Contact</a></li>
+            <li><a href="faq" class="white-text">FAQ</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
   <!-- Image-->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="Images/groupbenfitpic1.jpg" alt="" class="responsive-img">
-    </div>
-  </div>
+  <img src="Images/groupbenfitpic1.jpg" alt="" class="responsive-img">
 
   <!--Content -->
   <section class="section cyan">
@@ -70,11 +68,7 @@
   </section>
 
   <!-- Image-->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="Images/handshake.jpg" alt="" class="responsive-img">
-    </div>
-  </div>
+  <img src="Images/handshake.jpeg" alt="" class="responsive-img">
 
   <!-- Content -->
   <section class="section red">
@@ -93,11 +87,8 @@
   </section>
 
   <!-- Image-->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="Images/signature.jpg" alt="" class="responsive-img">
-    </div>
-  </div>
+  <img src="Images/expertise.jpeg" alt="" class="responsive-img">
+
   <!-- Content -->
   <section class="section bottom cyan">
     <div class="container">
@@ -151,7 +142,7 @@
       </div>
     </div>
     <div class="footer-copyright red">
-      <div class="container center-align">&copy; 2019 Peel Financial Services</div>
+      <div class="container center-align white-text copyright"></div>
     </div>
 
   </footer>
@@ -166,6 +157,7 @@
     $('.parallax').parallax();
     $('.tooltipped').tooltip();
     $('.scrollspy').scrollSpy();
+    $('.copyright').html('&copy; '+new Date().getFullYear()+ ' Peel Financial Services');
   });
   </script>
 </body>

@@ -10,3 +10,7 @@
 .section{
   margin-bottom: 2px !important;
 }
+
+img.responsive-img{
+  width: 100% !important;
+}
