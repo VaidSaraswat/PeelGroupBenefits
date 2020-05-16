@@ -1,6 +1,6 @@
-var API_KEY = 'key-5dae48591f5883bbbde3119b78e00ce5';
+require('dotenv').config();
 var DOMAIN = 'mg.peelgroupbenefits.ca';
-var mailgun = require('mailgun-js')({apiKey: API_KEY, domain: DOMAIN});
+var mailgun = require('mailgun-js')({apiKey: process.env.api_key, domain: DOMAIN});
 
 const sendMail = (email, message, date, time)=> {
   const mailOptions = {
@@ -15,10 +15,6 @@ const sendMail = (email, message, date, time)=> {
     {
       console.log(error);
     }
-    /*else
-    {
-      console.log(body);
-    }*/
   });
 }
 
